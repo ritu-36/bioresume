@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="st1.css">
+    <script src="script.js" defer></script>
+    <title>Resume</title>
+</head>
+<body>
+    <header>
+        <h1>Resume</h1>
+        <nav>
+            <button onclick="window.location.href='index.html'">Home</button>
+            <button onclick="window.location.href='biodata.html'">Biodata</button>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Enter Your Resume Details</h2>
+        <form id="resumeForm">
+            <label for="jobTitle">Job Title:</label>
+            <input type="text" id="jobTitle" required>
+            <label for="experience">Experience:</label>
+            <textarea id="experience" required></textarea>
+            <label for="skills">Skills:</label>
+            <input type="text" id="skills" required>
+            <label for="certificates">certificates:</label>
+            <input type="text" id="certificates" required>
+            <label for="Details">personal details:</label>
+            <input type="text" id="Details" required>
+            <label for="Education">Education qualification:</label>
+            <input type="text" id="Education" required>
+            <button type="submit">Submit</button>
+            <nav>
+                <button onclick="window.location.href='out.html'">your resumes</button>
+            </nav>
+        </form>
+    </main>
+</body>
+</html>
